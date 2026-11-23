@@ -10,6 +10,12 @@ const app = express();
 // middleware
 app.use(express.json());
 
+// health check
+app.get('/health', (req, res) => {
+    console.log("health")
+    res.status(200).json({ status: 'ok' });
+});
+
 // connect mongodb
 connectDB();
 
