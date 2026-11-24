@@ -3,3 +3,4 @@ node_modules/
 .DS_Store
 server/pnpm-lock.yaml
 server/node_modules/*
+.DS_Store

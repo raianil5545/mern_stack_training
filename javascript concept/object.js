@@ -1,14 +1,21 @@
-const person = {
-    name: 'John',
-    age: 30,
-    city: 'New York'
-}
+// const person = {
+//     name: 'John',
+//     age: 30,
+//     city: 'New York'
+// }
+const person = new Object({
+  name: 'John',
+  age: 30,
+  city: 'New York'
+});
 
-// console.log(person);
+console.log(person);
+// accessing the properties in the object
 // console.log(person.name);
 // console.log(person['age']);
 // console.log(person['city']);
 
+// reassigning the properties in js object
 // person.name = 'Jane';
 // console.log(person.name);
 
