@@ -4,7 +4,8 @@
 // arrays are dynamic
 // arrays are heterogeneous
 // arrays are iterable
-const fruits = ['apple', 'banana', 'mango']
+const fruits = new Array('apple', 'banana', 'mango')
+// const fruits = ['apple', 'banana', 'mango']
 console.log(fruits);
 console.log(fruits[0]);
 console.log(fruits[1]);
